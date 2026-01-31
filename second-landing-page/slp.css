@@ -1,0 +1,97 @@
+.containerUp{
+    display: flex;
+    justify-content: center;
+}
+#sp1, #sp2{
+    margin-top: 200px;
+}
+.containerDown{
+    display: flex;
+    justify-content: center;
+}
+#btnLand{
+    display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        margin-top: 70px;
+        background-color: rgb(195, 191, 191, 0);
+        position: absolute;
+        padding: auto;
+        font-family: 'Caveat', cursive;
+        /* border: none; */
+        font-size: 150%;
+        font-weight: bolder;
+}
+#btnCV{
+    display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        margin-top: 110px;
+        background-color: rgb(195, 191, 191);
+        position: absolute;
+        padding: auto; 
+        font-family: 'Caveat', cursive;
+        /* border: none; */
+        font-size: 250%;
+        font-weight: bolder;
+}
+#btnWorks{
+    display: flex;
+        justify-content: center;
+        margin-left: 270px;
+        margin-top: 130px;
+        background-color: rgb(136, 128, 128);
+        position: absolute;
+        padding: auto;
+        font-family: 'Caveat', cursive;
+        /* border: none; */
+        font-size: 250%;
+        font-weight: bolder;
+}
+#btnContact{
+display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 190px;
+    background-color:black;
+    position: absolute;
+    padding: auto;
+    font-family: 'Caveat', cursive;
+    /* border: none; */
+    font-size: 250%;
+    font-weight: bolder;
+    color: white;
+}
+#ancorCV, #ancorWorks, #ancorLand{
+    text-decoration: none;
+    color: black;
+}
+#ancorContact{
+    text-decoration: none;
+    color: white;
+}
+@media all and (max-width:800px){
+    #monitor{
+        margin-top: 30px;
+        width: 300px;
+    }
+    #sp1,#sp2{
+        width: 50px;
+    }
+    #btnCV{
+        margin-top: 130px;
+    }
+    #btnWorks{
+        margin-left: 210px;
+    }
+    #btnContact{
+    margin-top: 180px;
+    }
+    #btnLand{
+    margin-left: 20px;
+    margin-top: 85px;
+    }
+    #ancorCV, #ancorWorks,#ancorContact,#ancorLand{
+    font-size: 20px;
+    }
+}

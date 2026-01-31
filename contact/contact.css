@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+.first, .second, .third{
+    display: flex;
+    justify-content: space-around;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+}
+#btnCVContact, #btnWorksContact, #btnMainContact{
+padding: 30px;
+background-color: rgb(0,0,0,0);
+margin: 5px;
+border: 2px solid black;
+border-radius: 100px;
+}
+#ancorCVContact, #ancorWorksContact, #ancorMainContact{
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#btnCVContact{
+    background-color: rgb(195, 191, 191);
+}
+#btnWorksContact{
+    background-color: rgb(136, 128, 128);
+}
+ #btnMainContact{
+    background-color: black;
+}
+#ancorMainContact{
+    color: white;
+}
+@media all and (max-width:1000px){
+    #face, #linked, #insta, #tel, #mail{
+        width: 130px;
+    }
+        .first{
+            margin-top: 15px;
+        }
+}
